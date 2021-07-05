@@ -21,7 +21,7 @@ listEl.classList.add("list");
 
 const createGalleryList = images
   .map(({ url, alt }) => {
-    return `<li class="gallery__item"><img class="gallery__img" src= ${url} alt= ${alt}/></li>`;
+    return `<li class="gallery__item"><img class="gallery__img" src= "${url}" alt= "${alt}"/></li>`;
   })
   .join("");
 // console.log(createGalleryList);
